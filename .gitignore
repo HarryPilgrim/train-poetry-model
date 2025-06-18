@@ -1,0 +1,9 @@
+# Ignore model outputs
+/gpt2-finetuned/
+/checkpoints/
+/runs/
+
+# Ignore data files
+*.json
+*.txt
+data/

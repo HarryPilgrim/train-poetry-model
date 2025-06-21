@@ -1,5 +1,11 @@
 As part of my machine learning studies, I am fine-tuning a small language model (DistilGPT-2) using Hugging Face’s transformers library. The goal: generate original poetry based on the styles of poets.
 
+![hugging face model](https://github.com/user-attachments/assets/19899951-5fd9-4aae-a3d9-e78055822dd4)
+
+Trained a custom DistilGPT2 model using PyTorch and Hugging Face Transformers on a corpus of poetry. Fine-tuned the model locally, then pushed it to the Hugging Face Model Hub for inference. Integrated the hosted model into a Flask-based poetry website (poetryplatform.org) via Hugging Face’s Inference API, enabling users to generate AI-composed poems from text prompts directly on the site.
+
+![poetry platform ai](https://github.com/user-attachments/assets/d14cbb9a-511b-4fff-878d-45db309e00f6)
+
 Transformers work by learning the probability of a word given the context of previous words—ideal for text generation. By training on a dataset of real poems, the model begins to capture stylistic elements like tone, rhythm, and phrasing.
 
 Here’s an eerie early sample from the model. the model that produced this was trained on 20 poets. It starts from a short prompt and completes the thought in its own strange, learned voice:
